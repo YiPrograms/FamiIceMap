@@ -17,6 +17,11 @@ for (const store of stores) {
     break;
   }
 
+  if (!Array.isArray(store.services)) {
+    failures.push(`門市服務欄位缺失：${store.id}`);
+    break;
+  }
+
   if (!Number.isFinite(store.latitude) || !Number.isFinite(store.longitude)) {
     failures.push(`門市座標無效：${store.id}`);
     break;

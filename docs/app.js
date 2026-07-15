@@ -9,7 +9,7 @@ const TAIWAN_BOUNDS = [
 const state = {
   stores: [],
   filteredStores: [],
-  filter: "all",
+  filters: new Set(),
   city: "all",
   query: "",
   mode: "map",
@@ -88,10 +88,82 @@ function getMarkerStyle(store) {
   return { color: "#075d47", fillColor: "#0c785c" };
 }
 
+const serviceLabels = {
+  lcoffee: "咖啡複合店",
+  super: "FamiSuper",
+  laundry: "Fami自助洗衣",
+  smart: "智能咖啡機",
+  cooknow: "馬尚煮",
+  tea: "Let's Tea 喝現煮",
+  sweetpotato: "夯番薯",
+  rpotato: "夯馬鈴薯／夯番麥",
+  hd: "哈逗堡",
+  fresh: "蒸新鮮",
+  grill: "SOHOT 炎選－炸烤物",
+  dessert: "SOHOT 炎選－現烤點心",
+  ice: "Fami!ce（有販售店）",
+  icecream: "Fami!ce（單口味店）",
+  twoice: "Fami!ce（雙口味店）",
+  famiice: "Fami!ce（特殊造型店）",
+  tanhou: "天和鮮物",
+  veg: "生鮮蔬菜",
+  costco: "好市多專架",
+  hogan: "哈肯舖",
+  bear: "小熊菓子",
+  npork: "無豬肉熱食友善店",
+  wei: "秤重糖巧販售店",
+  eco: "塑環真®循環杯",
+  photo: "相片立可得",
+  cs: "ChargeSPOT",
+  goro: "gogoro 電池交換站",
+  jp: "台新外幣 ATM（日圓）",
+  evc: "電動車充電站",
+  pok: "寶可夢機台",
+  rest: "休憩區",
+  toilet: "廁所",
+  wifi: "Wi-Fi",
+  parking: "停車場",
+  sunmai: "生鮮商品",
+  orgf: "有機食品",
+  preorder: "預購服務",
+  tripk: "旅遊票券／票券服務",
+  meatballs: "貢丸專區",
+  leezen: "里仁商品",
+  wash: "洗衣服務",
+  hada: "哈達專區",
+  kit: "生活用品專區",
+  intl: "國際快遞",
+  pet: "寵物用品",
+  steam: "蒸煮商品",
+  fzo: "蔬食專區"
+};
+
+function getServiceLabels(store) {
+  return [...new Set(store.services || [])].map((code) => ({
+    code,
+    label: serviceLabels[code] || code.toUpperCase()
+  }));
+}
+
+function renderServiceDetails(store, open = false) {
+  const services = getServiceLabels(store);
+  if (!services.length) return "";
+  const tags = services
+    .map((service) => `<span class="service-tag" title="服務代碼：${escapeHtml(service.code)}">${escapeHtml(service.label)}</span>`)
+    .join("");
+  return `
+    <details class="service-details"${open ? " open" : ""}>
+      <summary>店內服務（${services.length} 項）</summary>
+      <div class="service-list">${tags}</div>
+    </details>`;
+}
+
 function matchesType(store) {
-  if (state.filter === "all") return true;
-  if (state.filter === "special") return store.specialShape;
-  return store.machine === state.filter;
+  if (!state.filters.size) return true;
+  return [...state.filters].some((filter) => {
+    if (filter === "special") return store.specialShape;
+    return store.machine === filter;
+  });
 }
 
 function readUrlState() {
@@ -99,9 +171,11 @@ function readUrlState() {
   const requestedFilter = params.get("type");
   const requestedMode = params.get("view");
 
-  if (["all", "single", "double", "special"].includes(requestedFilter)) {
-    state.filter = requestedFilter;
-  }
+  state.filters = new Set(
+    (requestedFilter || "")
+      .split(",")
+      .filter((filter) => ["single", "double", "special"].includes(filter))
+  );
   if (["map", "list"].includes(requestedMode)) state.mode = requestedMode;
 
   state.city = params.get("city") || "all";
@@ -110,7 +184,7 @@ function readUrlState() {
 
 function writeUrlState() {
   const params = new URLSearchParams();
-  if (state.filter !== "all") params.set("type", state.filter);
+  if (state.filters.size) params.set("type", [...state.filters].join(","));
   if (state.city !== "all") params.set("city", state.city);
   if (state.query) params.set("q", state.query);
   if (state.mode !== "map") params.set("view", state.mode);
@@ -120,7 +194,9 @@ function writeUrlState() {
 
 function syncControls() {
   document.querySelectorAll("[data-filter]").forEach((button) => {
-    const isActive = button.dataset.filter === state.filter;
+    const isActive = button.dataset.filter === "all"
+      ? !state.filters.size
+      : state.filters.has(button.dataset.filter);
     button.classList.toggle("is-active", isActive);
     button.setAttribute("aria-pressed", String(isActive));
   });
@@ -186,13 +262,30 @@ function initializeMap() {
   });
 
   L.control.zoom({ position: "topright" }).addTo(state.map);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    subdomains: "abcd",
+    maxZoom: 20,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
   }).addTo(state.map);
 
   state.markerRenderer = L.canvas({ padding: 0.5 });
-  state.markerLayer = L.layerGroup().addTo(state.map);
+  state.markerLayer = typeof L.markerClusterGroup === "function"
+    ? L.markerClusterGroup({
+      chunkedLoading: true,
+      showCoverageOnHover: false,
+      spiderfyOnMaxZoom: true,
+      maxClusterRadius: 42,
+      iconCreateFunction(cluster) {
+        const count = cluster.getChildCount();
+        const size = count > 99 ? 46 : count > 9 ? 42 : 38;
+        return L.divIcon({
+          html: `<span>${count > 999 ? "999+" : count}</span>`,
+          className: "marker-cluster-simple",
+          iconSize: L.point(size, size)
+        });
+      }
+    }).addTo(state.map)
+    : L.layerGroup().addTo(state.map);
 }
 
 function createPopup(store) {
@@ -208,6 +301,7 @@ function createPopup(store) {
       <div class="tag-row">${labels}</div>
       <h3>${escapeHtml(store.name)}</h3>
       <p>${escapeHtml(store.address)}<br />店號 ${escapeHtml(store.id)}</p>
+      ${renderServiceDetails(store, true)}
       <div class="popup-actions">
         <a href="${directionsUrl(store)}" target="_blank" rel="noreferrer">開啟導航 ↗</a>
         ${phoneAction}
@@ -258,6 +352,7 @@ function renderStoreCard(store) {
       </div>
       <p class="store-address">${escapeHtml(store.address)}</p>
       <div class="tag-row">${labels}</div>
+      ${renderServiceDetails(store)}
       <div class="store-actions">
         <button class="primary-action" type="button" data-show-on-map="${escapeHtml(store.id)}">地圖查看</button>
         <a href="${directionsUrl(store)}" target="_blank" rel="noreferrer">導航 ↗</a>
@@ -299,7 +394,17 @@ function applyFilters({ fitMap = false } = {}) {
 
   state.page = 1;
   const scope = state.city === "all" ? "全台" : state.city;
-  elements.resultsSummary.textContent = `${scope}找到 ${formatCount(state.filteredStores.length)}符合門市`;
+  const selectedLabels = [
+    ["single", "單口味"],
+    ["double", "雙口味"],
+    ["special", "特殊造型"]
+  ]
+    .filter(([filter]) => state.filters.has(filter))
+    .map(([, label]) => label);
+  const filterSummary = selectedLabels.length
+    ? `已選：${selectedLabels.join("、")}。`
+    : "目前顯示全部門市。";
+  elements.resultsSummary.textContent = `${scope}，${filterSummary}共 ${formatCount(state.filteredStores.length)}。`;
   syncControls();
   writeUrlState();
   renderMap({ fitMap });
@@ -331,7 +436,14 @@ function showStoreOnMap(storeId) {
 function bindEvents() {
   document.querySelectorAll("[data-filter]").forEach((button) => {
     button.addEventListener("click", () => {
-      state.filter = button.dataset.filter;
+      const filter = button.dataset.filter;
+      if (filter === "all") {
+        state.filters.clear();
+      } else if (state.filters.has(filter)) {
+        state.filters.delete(filter);
+      } else {
+        state.filters.add(filter);
+      }
       applyFilters({ fitMap: true });
     });
   });
@@ -351,7 +463,7 @@ function bindEvents() {
   });
 
   elements.resetButton.addEventListener("click", () => {
-    state.filter = "all";
+    state.filters.clear();
     state.city = "all";
     state.query = "";
     applyFilters({ fitMap: true });
@@ -387,7 +499,7 @@ async function start() {
     renderCounts(payload.metadata);
     populateCitySelect();
     initializeMap();
-    applyFilters({ fitMap: state.city !== "all" || state.filter !== "all" });
+    applyFilters({ fitMap: state.city !== "all" || state.filters.size > 0 });
     setMode(state.mode);
   } catch (error) {
     console.error(error);

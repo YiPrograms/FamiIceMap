@@ -29,6 +29,58 @@ export const CITY_ORDER = [
   "連江縣"
 ];
 
+// Codes are returned in the official `all` field. The map page uses the same
+// codes for its service icons and labels.
+export const SERVICE_LABELS = {
+  lcoffee: "咖啡複合店",
+  super: "FamiSuper",
+  laundry: "Fami自助洗衣",
+  smart: "智能咖啡機",
+  cooknow: "馬尚煮",
+  tea: "Let's Tea 喝現煮",
+  sweetpotato: "夯番薯",
+  rpotato: "夯馬鈴薯／夯番麥",
+  hd: "哈逗堡",
+  fresh: "蒸新鮮",
+  grill: "SOHOT 炎選－炸烤物",
+  dessert: "SOHOT 炎選－現烤點心",
+  ice: "Fami!ce（有販售店）",
+  icecream: "Fami!ce（單口味店）",
+  twoice: "Fami!ce（雙口味店）",
+  famiice: "Fami!ce（特殊造型店）",
+  tanhou: "天和鮮物",
+  veg: "生鮮蔬菜",
+  costco: "好市多專架",
+  hogan: "哈肯舖",
+  bear: "小熊菓子",
+  npork: "無豬肉熱食友善店",
+  wei: "秤重糖巧販售店",
+  eco: "塑環真®循環杯",
+  photo: "相片立可得",
+  cs: "ChargeSPOT",
+  goro: "gogoro 電池交換站",
+  jp: "台新外幣 ATM（日圓）",
+  evc: "電動車充電站",
+  pok: "寶可夢機台",
+  rest: "休憩區",
+  toilet: "廁所",
+  wifi: "Wi-Fi",
+  parking: "停車場",
+  sunmai: "生鮮商品",
+  orgf: "有機食品",
+  preorder: "預購服務",
+  tripk: "旅遊票券／票券服務",
+  meatballs: "貢丸專區",
+  leezen: "里仁商品",
+  wash: "洗衣服務",
+  hada: "哈達專區",
+  kit: "生活用品專區",
+  intl: "國際快遞",
+  pet: "寵物用品",
+  steam: "蒸煮商品",
+  fzo: "蔬食專區"
+};
+
 export function parseJsonp(body) {
   const text = body.replace(/^\uFEFF/, "").trim();
   const firstParen = text.indexOf("(");
@@ -88,6 +140,7 @@ export function normalizeStore(raw, cityOverride) {
     phone: String(raw.TEL ?? "").trim(),
     latitude,
     longitude,
+    services: getServices(raw.all),
     machine: classification.machine,
     specialShape: classification.specialShape
   };

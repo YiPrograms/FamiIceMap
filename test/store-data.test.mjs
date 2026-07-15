@@ -39,6 +39,7 @@ test("normalizeStore keeps stable, frontend-friendly fields", () => {
   assert.equal(store.serviceId, "00456");
   assert.equal(store.city, "台北市");
   assert.equal(store.machine, "single");
+  assert.deepEqual(store.services, ["ice", "icecream"]);
 });
 
 test("buildMetadata reports overlapping special-shape stores", () => {
