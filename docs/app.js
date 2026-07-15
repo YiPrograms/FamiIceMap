@@ -315,12 +315,15 @@ function renderMap({ fitMap = false } = {}) {
   state.markersById.clear();
 
   const bounds = [];
+  const touchLayout = window.matchMedia("(pointer: coarse)").matches || window.innerWidth <= 680;
+  const markerRadius = touchLayout ? 10 : 7;
   for (const store of state.filteredStores) {
     const style = getMarkerStyle(store);
     const marker = L.circleMarker([store.latitude, store.longitude], {
       renderer: state.markerRenderer,
-      radius: store.specialShape ? 6 : 5,
-      weight: 1.5,
+      // Give touch users a forgiving hit area; the visible dot stays compact.
+      radius: store.specialShape ? markerRadius + 1 : markerRadius,
+      weight: touchLayout ? 2 : 1.5,
       color: style.color,
       fillColor: style.fillColor,
       fillOpacity: 0.84
@@ -444,7 +447,8 @@ function bindEvents() {
       } else {
         state.filters.add(filter);
       }
-      applyFilters({ fitMap: true });
+      // Filters change the marker set, not the user's map position.
+      applyFilters();
     });
   });
 
@@ -466,7 +470,7 @@ function bindEvents() {
     state.filters.clear();
     state.city = "all";
     state.query = "";
-    applyFilters({ fitMap: true });
+    applyFilters();
   });
 
   elements.previousPage.addEventListener("click", () => {
