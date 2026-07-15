@@ -1,0 +1,14 @@
+{
+  "name": "fami-ice-map",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update-data": "node scripts/update-stores.mjs",
+    "test": "node --test",
+    "check": "node scripts/validate-data.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

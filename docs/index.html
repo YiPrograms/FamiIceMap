@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="全台全家 Fami!ce 霜淇淋門市地圖，可篩選單口味、雙口味與特殊造型門市。"
+    />
+    <meta name="theme-color" content="#0c785c" />
+    <title>今天吃哪支？｜全台全家霜淇淋地圖</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://tile.openstreetmap.org" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="全台全家霜淇淋地圖首頁">
+        <span class="brand-mark" aria-hidden="true">🍦</span>
+        <span>
+          <strong>今天吃哪支？</strong>
+          <small>全台全家霜淇淋地圖</small>
+        </span>
+      </a>
+      <a
+        class="source-link"
+        href="https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx"
+        target="_blank"
+        rel="noreferrer"
+      >
+        官方資料來源 <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">FAMI!CE FINDER · TAIWAN</p>
+          <h1 id="hero-title">離你最近的那一支，<br /><em>現在就出發。</em></h1>
+          <p class="hero-description">
+            從 <strong id="hero-count">—</strong> 間門市裡，找到單口味、雙口味，<br class="desktop-only" />
+            或那支可愛到捨不得吃的特殊造型霜淇淋。
+          </p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <span class="sun"></span>
+          <span class="scoop scoop-back"></span>
+          <span class="scoop scoop-front"></span>
+          <span class="cone"></span>
+          <span class="sprinkle sprinkle-one"></span>
+          <span class="sprinkle sprinkle-two"></span>
+          <span class="sprinkle sprinkle-three"></span>
+        </div>
+      </section>
+
+      <section class="explorer" aria-labelledby="explorer-title">
+        <div class="explorer-heading">
+          <div>
+            <p class="section-kicker">PICK YOUR FLAVOR</p>
+            <h2 id="explorer-title">今天想吃哪一種？</h2>
+          </div>
+          <div class="mode-switch" aria-label="瀏覽模式">
+            <button class="mode-button is-active" type="button" data-mode="map" aria-pressed="true">
+              <span aria-hidden="true">⌖</span> 地圖
+            </button>
+            <button class="mode-button" type="button" data-mode="list" aria-pressed="false">
+              <span aria-hidden="true">☷</span> 列表
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-bar">
+          <div class="flavor-filters" aria-label="霜淇淋種類篩選">
+            <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">
+              <span class="chip-icon chip-icon-all" aria-hidden="true">✦</span>
+              <span>全部門市<small id="count-all">—</small></span>
+            </button>
+            <button class="filter-chip" type="button" data-filter="single" aria-pressed="false">
+              <span class="chip-icon chip-icon-single" aria-hidden="true">1</span>
+              <span>單口味<small id="count-single">—</small></span>
+            </button>
+            <button class="filter-chip" type="button" data-filter="double" aria-pressed="false">
+              <span class="chip-icon chip-icon-double" aria-hidden="true">2</span>
+              <span>雙口味<small id="count-double">—</small></span>
+            </button>
+            <button class="filter-chip" type="button" data-filter="special" aria-pressed="false">
+              <span class="chip-icon chip-icon-special" aria-hidden="true">☺</span>
+              <span>特殊造型<small id="count-special">—</small></span>
+            </button>
+          </div>
+
+          <div class="field-row">
+            <label class="search-field">
+              <span class="sr-only">搜尋店名或地址</span>
+              <span aria-hidden="true">⌕</span>
+              <input id="search-input" type="search" placeholder="搜尋店名、地址…" autocomplete="off" />
+            </label>
+            <label class="select-field">
+              <span class="sr-only">選擇縣市</span>
+              <select id="city-select">
+                <option value="all">全台灣</option>
+              </select>
+              <span aria-hidden="true">⌄</span>
+            </label>
+            <button id="reset-button" class="reset-button" type="button">清除</button>
+          </div>
+        </div>
+
+        <div class="results-meta" aria-live="polite">
+          <p><span class="status-dot" aria-hidden="true"></span><span id="results-summary">正在載入門市…</span></p>
+          <p id="updated-at">資料更新時間：—</p>
+        </div>
+
+        <div id="error-message" class="error-message" role="alert" hidden>
+          <strong>門市資料暫時載入失敗</strong>
+          <span>請重新整理頁面，或稍後再試。</span>
+        </div>
+
+        <section id="map-view" class="view-panel map-panel" aria-label="門市地圖">
+          <div id="map" aria-label="全台霜淇淋門市地圖"></div>
+          <div class="map-legend" aria-label="地圖圖例">
+            <span><i class="legend-dot single"></i>單口味</span>
+            <span><i class="legend-dot double"></i>雙口味</span>
+            <span><i class="legend-dot special"></i>特殊造型</span>
+          </div>
+        </section>
+
+        <section id="list-view" class="view-panel list-panel" aria-label="門市列表" hidden>
+          <div id="store-list" class="store-grid"></div>
+          <nav id="pagination" class="pagination" aria-label="門市列表分頁" hidden>
+            <button id="previous-page" type="button">← 上一頁</button>
+            <span id="page-status">第 1 / 1 頁</span>
+            <button id="next-page" type="button">下一頁 →</button>
+          </nav>
+        </section>
+      </section>
+
+      <section class="data-note" aria-label="資料說明">
+        <span aria-hidden="true">i</span>
+        <p>
+          門市設備與供應狀況仍可能臨時調整，出發前建議致電門市確認。資料每週自
+          <a href="https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx" target="_blank" rel="noreferrer"
+            >全家官方門市查詢</a
+          >自動更新。
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made for every soft-serve craving in Taiwan.</p>
+      <p>非全家便利商店官方網站 · 地圖資料 © OpenStreetMap contributors</p>
+    </footer>
+  </body>
+</html>
