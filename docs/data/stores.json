@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "updatedAt": "2026-07-22T14:36:06.260Z",
+    "updatedAt": "2026-07-29T14:57:46.834Z",
     "source": "https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx",
-    "count": 1914,
+    "count": 1915,
     "counts": {
       "single": 1310,
-      "double": 322,
+      "double": 323,
       "specialShape": 282,
       "unclassified": 282
     }
@@ -3067,7 +3067,7 @@
       "specialShape": false
     },
     {
-      "id": "026364",
+      "id": "026113",
       "serviceId": "10053",
       "name": "全家公館店",
       "address": "台北市中正區汀州路三段２５１號",
@@ -7460,7 +7460,7 @@
       "specialShape": false
     },
     {
-      "id": "025377",
+      "id": "026123",
       "serviceId": "59209",
       "name": "全家三重金陽店",
       "address": "新北市三重區重陽路一段７９號１樓",
@@ -12308,7 +12308,7 @@
       "specialShape": false
     },
     {
-      "id": "024324",
+      "id": "026122",
       "serviceId": "59756",
       "name": "全家淡水銘崙店",
       "address": "新北市淡水區沙崙路９號１樓",
@@ -13153,7 +13153,7 @@
       "specialShape": false
     },
     {
-      "id": "026304",
+      "id": "026105",
       "serviceId": "52420",
       "name": "全家新店新民族店",
       "address": "新北市新店區民族路９７號１樓＋地下室",
@@ -13220,7 +13220,7 @@
       "specialShape": true
     },
     {
-      "id": "018995",
+      "id": "026644",
       "serviceId": "15729",
       "name": "全家新店皇家店",
       "address": "新北市新店區永平里永平街２７號一樓",
@@ -14964,7 +14964,7 @@
       "specialShape": false
     },
     {
-      "id": "023528",
+      "id": "026116",
       "serviceId": "15011",
       "name": "全家蘆洲復江店",
       "address": "新北市蘆洲區復興路１５０．１５２號一樓",
@@ -24822,7 +24822,7 @@
       "name": "全家台中圖樂店",
       "address": "台中市西屯區文華路１３８巷１之２號",
       "city": "台中市",
-      "postalCode": "403",
+      "postalCode": "407",
       "phone": "04-24524863",
       "latitude": 24.1829337,
       "longitude": 120.64609244,
@@ -34129,7 +34129,7 @@
       "name": "全家台南西華店",
       "address": "台南市北區西華街５７號１樓店面（承租範圍如附圖）",
       "city": "台南市",
-      "postalCode": "700",
+      "postalCode": "704",
       "phone": "06-2233935",
       "latitude": 22.998909,
       "longitude": 120.210466,
@@ -35599,7 +35599,7 @@
       "specialShape": false
     },
     {
-      "id": "024282",
+      "id": "026414",
       "serviceId": "52675",
       "name": "全家台南灣裡店",
       "address": "台南市南區佛壇里灣裡路４０３號１樓",
@@ -36649,7 +36649,7 @@
       "specialShape": false
     },
     {
-      "id": "014977",
+      "id": "026102",
       "serviceId": "50202",
       "name": "全家台南東德店",
       "address": "臺南市東區崇德路１２８號",
@@ -37051,7 +37051,6 @@
       "longitude": 120.327205,
       "services": [
         "sweetpotato",
-        "photo",
         "toilet",
         "rest",
         "famiice",
@@ -37777,7 +37776,7 @@
       "specialShape": false
     },
     {
-      "id": "024460",
+      "id": "025980",
       "serviceId": "61821",
       "name": "全家仁武吉仁店",
       "address": "高雄市仁武區仁孝路３３９號",
@@ -42944,6 +42943,29 @@
         "tea",
         "tripk",
         "grill",
+        "hd",
+        "wei"
+      ],
+      "machine": "double",
+      "specialShape": false
+    },
+    {
+      "id": "023360",
+      "serviceId": "59612",
+      "name": "全家頭城省道店",
+      "address": "宜蘭縣頭城鎮二城里青雲路一段１號",
+      "city": "宜蘭縣",
+      "postalCode": "261",
+      "phone": "03-9870631",
+      "latitude": 24.83769701,
+      "longitude": 121.78857709,
+      "services": [
+        "ice",
+        "sweetpotato",
+        "twoice",
+        "costco",
+        "cs",
+        "fresh",
         "hd",
         "wei"
       ],
