@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-26T13:35:35.547Z",
+    "updatedAt": "2026-09-02T16:49:01.378Z",
     "source": "https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx",
     "count": 1915,
     "counts": {
-      "single": 1310,
-      "double": 323,
+      "single": 1253,
+      "double": 598,
       "specialShape": 282,
-      "unclassified": 282
+      "unclassified": 64
     }
   },
   "stores": [
@@ -205,13 +205,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tea",
         "goro",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -615,12 +616,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -657,6 +657,7 @@
       "longitude": 121.525481,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -664,7 +665,7 @@
         "npork",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -773,6 +774,7 @@
         "photo",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -781,7 +783,7 @@
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -839,12 +841,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "cs",
         "eco"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -901,6 +902,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -909,7 +911,7 @@
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -948,7 +950,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "rpotato",
@@ -958,7 +959,7 @@
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -1214,11 +1215,12 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -1305,6 +1307,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "smart",
@@ -1315,7 +1318,7 @@
         "npork",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -1572,6 +1575,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -1581,7 +1585,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -1621,7 +1625,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "dessert",
@@ -1631,7 +1634,7 @@
         "grill",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -1645,6 +1648,7 @@
       "latitude": 25.041184,
       "longitude": 121.55642,
       "services": [
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -1655,7 +1659,7 @@
         "npork",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -1815,17 +1819,18 @@
       "longitude": 121.528574,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
-      "id": "023762",
+      "id": "026163",
       "serviceId": "58658",
       "name": "全家台科店",
       "address": "台北市大安區基隆路４段４３號地下一樓第三餐廳",
@@ -1836,6 +1841,7 @@
       "longitude": 121.540597,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -1846,7 +1852,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -1885,13 +1891,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "costco",
         "cs",
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -1926,12 +1931,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "cs",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -1946,13 +1950,14 @@
       "longitude": 121.533139,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "tea",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -2016,12 +2021,13 @@
       "longitude": 121.524341,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -2335,12 +2341,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -2402,13 +2409,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "fresh",
         "eco"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -2449,6 +2457,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -2457,7 +2466,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -2521,13 +2530,14 @@
       "longitude": 121.525557,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "tripk",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -2667,6 +2677,7 @@
       "longitude": 121.530705,
       "services": [
         "sweetpotato",
+        "icecream",
         "famiice",
         "rpotato",
         "dessert",
@@ -2676,7 +2687,7 @@
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "single",
       "specialShape": true
     },
     {
@@ -2948,6 +2959,7 @@
         "sweetpotato",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -2957,7 +2969,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -2997,11 +3009,10 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -3407,6 +3418,7 @@
       "longitude": 121.516757,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -3414,7 +3426,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -3881,7 +3893,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "cs",
         "smart",
@@ -3890,7 +3901,7 @@
         "hogan",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -4226,15 +4237,16 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "eco",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
-      "id": "020275",
+      "id": "026255",
       "serviceId": "52542",
       "name": "全家新文華店",
       "address": "台北市文山區景華街３巷２號１樓及Ｂ１",
@@ -4316,6 +4328,7 @@
       "longitude": 121.570731,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -4325,7 +4338,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -4341,11 +4354,10 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -4380,6 +4392,7 @@
       "longitude": 121.549596,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -4387,7 +4400,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -4448,6 +4461,7 @@
       "latitude": 24.998848,
       "longitude": 121.557059,
       "services": [
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -4457,7 +4471,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -4495,12 +4509,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -4609,12 +4624,13 @@
       "longitude": 121.472935,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -4713,13 +4729,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "eco",
         "cooknow",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -4805,13 +4820,14 @@
       "longitude": 121.504149,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -4900,12 +4916,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -4976,12 +4993,13 @@
       "longitude": 121.576343,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -4998,6 +5016,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -5005,7 +5024,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -5164,6 +5183,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -5172,7 +5192,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -5306,6 +5326,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "lcoffee",
@@ -5319,7 +5340,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -5383,6 +5404,7 @@
       "latitude": 25.054153,
       "longitude": 121.549442,
       "services": [
+        "twoice",
         "famiice",
         "rpotato",
         "lcoffee",
@@ -5395,7 +5417,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -5550,6 +5572,7 @@
       "longitude": 121.558136,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -5560,7 +5583,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -5805,6 +5828,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -5814,7 +5838,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -5830,6 +5854,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
@@ -5838,7 +5863,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -5924,6 +5949,7 @@
       "longitude": 121.56113,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "eco",
@@ -5931,7 +5957,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -6158,6 +6184,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -6168,7 +6195,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -6234,6 +6261,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -6243,7 +6271,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -6301,13 +6329,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "cooknow",
         "npork",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -6393,7 +6422,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "dessert",
@@ -6405,7 +6433,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -6646,6 +6674,7 @@
         "sweetpotato",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "tanhou",
         "rpotato",
@@ -6660,7 +6689,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -6774,6 +6803,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -6782,7 +6812,7 @@
         "grill",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -6800,6 +6830,7 @@
         "toilet",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -6816,7 +6847,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -6832,6 +6863,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -6839,7 +6871,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -7053,7 +7085,7 @@
       "specialShape": false
     },
     {
-      "id": "024070",
+      "id": "026197",
       "serviceId": "64070",
       "name": "全家三重三張店",
       "address": "新北市三重區三張街１０８號１樓",
@@ -7423,6 +7455,7 @@
       "latitude": 25.075076,
       "longitude": 121.479264,
       "services": [
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -7433,7 +7466,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -7528,6 +7561,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "laundry",
         "rpotato",
@@ -7538,7 +7572,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -7554,6 +7588,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -7561,7 +7596,7 @@
         "tripk",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -7681,6 +7716,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -7691,7 +7727,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -7728,6 +7764,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
@@ -7736,7 +7773,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -8244,11 +8281,12 @@
         "photo",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -8379,14 +8417,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "cs",
         "hd",
         "fzo"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -8549,13 +8586,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -8571,6 +8607,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tripk",
@@ -8581,7 +8618,7 @@
         "pok",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -8800,6 +8837,7 @@
         "sweetpotato",
         "photo",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tea",
@@ -8808,7 +8846,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -8968,14 +9006,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "cs",
         "hd",
         "fzo"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -8990,6 +9027,7 @@
       "longitude": 121.493337,
       "services": [
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -8999,7 +9037,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -9043,11 +9081,12 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -9087,6 +9126,7 @@
       "services": [
         "photo",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -9098,7 +9138,7 @@
         "pok",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -9139,13 +9179,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "fresh",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -9184,6 +9225,7 @@
         "sweetpotato",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "dessert",
         "tea",
@@ -9195,7 +9237,7 @@
         "npork",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -9317,7 +9359,7 @@
       "specialShape": false
     },
     {
-      "id": "023192",
+      "id": "026242",
       "serviceId": "50938",
       "name": "全家永和正新店",
       "address": "新北市永和區中正路２７８號１樓",
@@ -9846,12 +9888,13 @@
         "toilet",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -9889,13 +9932,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -9911,7 +9955,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "veg",
         "cs",
@@ -9920,7 +9963,7 @@
         "pok",
         "wei"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -10000,11 +10043,12 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -10066,6 +10110,7 @@
       "longitude": 121.63189,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -10075,7 +10120,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -10290,6 +10335,7 @@
         "sweetpotato",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -10297,7 +10343,7 @@
         "eco",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -10426,6 +10472,7 @@
         "toilet",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -10439,7 +10486,7 @@
         "hogan",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -10481,6 +10528,7 @@
       "longitude": 121.455293,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -10490,7 +10538,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -10505,11 +10553,12 @@
       "longitude": 121.455558,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -10552,10 +10601,11 @@
       "longitude": 121.466741,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -10829,6 +10879,7 @@
       "longitude": 121.458585,
       "services": [
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -10843,7 +10894,7 @@
         "hogan",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -11004,13 +11055,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -11554,7 +11606,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "costco",
         "cs",
@@ -11565,7 +11616,7 @@
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -11581,6 +11632,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -11591,7 +11643,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -11716,6 +11768,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -11723,7 +11776,7 @@
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -11794,6 +11847,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -11809,7 +11863,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -11835,7 +11889,7 @@
       "specialShape": false
     },
     {
-      "id": "020897",
+      "id": "026217",
       "serviceId": "50083",
       "name": "全家泰山白金店",
       "address": "新北市泰山區仁愛路１０８號１樓",
@@ -11848,6 +11902,7 @@
         "sweetpotato",
         "photo",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tripk",
@@ -11855,7 +11910,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -11915,6 +11970,7 @@
       "longitude": 121.429279,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "lcoffee",
         "costco",
@@ -11922,7 +11978,7 @@
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -11960,14 +12016,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "cs",
         "npork",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -11983,7 +12038,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "cs",
@@ -11991,7 +12045,7 @@
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -12439,6 +12493,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -12448,7 +12503,7 @@
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -12657,13 +12712,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -12703,7 +12759,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "dessert",
         "costco",
@@ -12711,7 +12766,7 @@
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -12844,6 +12899,7 @@
       "latitude": 24.971574,
       "longitude": 121.535797,
       "services": [
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -12853,7 +12909,7 @@
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -13027,12 +13083,13 @@
         "sweetpotato",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -13191,17 +13248,18 @@
       "services": [
         "sweetpotato",
         "toilet",
+        "twoice",
         "famiice",
         "cs",
         "eco"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
       "id": "023826",
       "serviceId": "63826",
-      "name": "全家新北捷十四張店",
+      "name": "全家新北捷十四張",
       "address": "新北市新店區民權路２８２號２樓",
       "city": "新北市",
       "postalCode": "231",
@@ -13516,13 +13574,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "cs",
         "eco",
         "hd",
         "fzo"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -13578,11 +13635,12 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -13715,6 +13773,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "lcoffee",
@@ -13732,7 +13791,7 @@
         "pok",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -13748,6 +13807,7 @@
       "services": [
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -13755,7 +13815,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -13935,6 +13995,7 @@
       "latitude": 25.063582,
       "longitude": 121.457948,
       "services": [
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -13946,7 +14007,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -14058,6 +14119,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "eco",
@@ -14065,7 +14127,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -14082,6 +14144,7 @@
         "sweetpotato",
         "photo",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -14096,7 +14159,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -14206,6 +14269,7 @@
       "services": [
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -14214,7 +14278,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -14536,7 +14600,6 @@
         "ice",
         "sweetpotato",
         "photo",
-        "icecream",
         "toilet",
         "rest",
         "cs",
@@ -14544,7 +14607,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -14583,6 +14646,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -14590,7 +14654,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -14627,7 +14691,6 @@
       "longitude": 121.381742,
       "services": [
         "ice",
-        "icecream",
         "rest",
         "rpotato",
         "dessert",
@@ -14638,7 +14701,7 @@
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -14680,13 +14743,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -14865,13 +14927,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "cs",
         "fresh",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -14943,7 +15004,7 @@
       "specialShape": false
     },
     {
-      "id": "026104",
+      "id": "026218",
       "serviceId": "61746",
       "name": "全家蘆洲正榮店",
       "address": "新北市蘆洲區長榮路２０９號１樓",
@@ -14999,11 +15060,12 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -15019,7 +15081,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "cs",
@@ -15027,7 +15088,7 @@
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -15118,6 +15179,7 @@
       "longitude": 121.341852,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -15127,7 +15189,7 @@
         "pok",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -15163,10 +15225,9 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -15247,13 +15308,14 @@
       "longitude": 121.28486363,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -15281,7 +15343,7 @@
       "specialShape": false
     },
     {
-      "id": "018461",
+      "id": "026232",
       "serviceId": "58187",
       "name": "全家八德瑞豐店",
       "address": "桃園市八德區介壽路二段７９０號一樓",
@@ -15607,11 +15669,12 @@
       "longitude": 121.212662,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -15678,14 +15741,13 @@
       "longitude": 121.168982,
       "services": [
         "ice",
-        "icecream",
         "rpotato",
         "dessert",
         "grill",
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -15916,12 +15978,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "twoice",
+        "icecream",
         "rpotato",
         "cs",
         "hd"
       ],
-      "machine": "double",
+      "machine": "single",
       "specialShape": false
     },
     {
@@ -15961,6 +16023,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -15969,7 +16032,7 @@
         "npork",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -16010,14 +16073,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "dessert",
         "fresh",
         "npork",
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -16148,7 +16210,7 @@
       "specialShape": false
     },
     {
-      "id": "017912",
+      "id": "026794",
       "serviceId": "15531",
       "name": "全家中壢復華店",
       "address": "桃園市中壢區復華里自強四路８８號一樓",
@@ -16185,13 +16247,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "dessert",
         "grill",
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -16252,6 +16313,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
@@ -16259,7 +16321,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -16323,11 +16385,12 @@
       "longitude": 121.204214,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -16560,13 +16623,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -16604,13 +16668,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "cs",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -16892,13 +16955,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
         "smart",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -17034,7 +17098,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "dessert",
@@ -17044,7 +17107,7 @@
         "grill",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -17113,7 +17176,6 @@
       "longitude": 121.29980441,
       "services": [
         "ice",
-        "icecream",
         "lcoffee",
         "dessert",
         "costco",
@@ -17123,7 +17185,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -17264,7 +17326,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "rpotato",
@@ -17276,7 +17337,7 @@
         "jp",
         "fzo"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -17349,6 +17410,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -17357,7 +17419,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -17608,6 +17670,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "smart",
@@ -17616,7 +17679,7 @@
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -17774,6 +17837,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -17784,7 +17848,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -17975,6 +18039,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -17984,7 +18049,7 @@
         "npork",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -18000,14 +18065,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "dessert",
         "fresh",
         "grill",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -18062,6 +18126,7 @@
       "longitude": 121.186724,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -18073,7 +18138,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -18140,6 +18205,7 @@
       "services": [
         "sweetpotato",
         "photo",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -18148,7 +18214,7 @@
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -18212,6 +18278,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "lcoffee",
         "costco",
@@ -18221,7 +18288,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -18300,7 +18367,7 @@
       "specialShape": false
     },
     {
-      "id": "018599",
+      "id": "026141",
       "serviceId": "11950",
       "name": "全家龜山龍華店",
       "address": "桃園市龜山區萬壽路一段１１６號",
@@ -18339,6 +18406,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
@@ -18347,7 +18415,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -18440,17 +18508,18 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
-      "id": "023018",
+      "id": "026198",
       "serviceId": "57598",
       "name": "全家蘆竹吉林店",
       "address": "桃園市蘆竹區吉林路２號",
@@ -18634,13 +18703,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -18724,6 +18794,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
@@ -18734,7 +18805,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -18904,13 +18975,14 @@
       "longitude": 120.93604,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "eco",
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -18981,6 +19053,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -18990,7 +19063,7 @@
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -19028,11 +19101,12 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -19138,6 +19212,7 @@
       "longitude": 120.996866,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "fresh",
@@ -19145,7 +19220,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -19162,6 +19237,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -19171,7 +19247,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -19232,11 +19308,12 @@
       "longitude": 120.97692,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -19252,7 +19329,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "twoice",
         "laundry",
         "rpotato",
         "lcoffee",
@@ -19264,7 +19340,7 @@
         "hd",
         "wei"
       ],
-      "machine": "double",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -19356,6 +19432,7 @@
       "longitude": 120.996275,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -19366,7 +19443,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -19411,13 +19488,14 @@
         "toilet",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "lcoffee",
         "cs",
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -19731,6 +19809,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -19743,7 +19822,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -19868,6 +19947,7 @@
       "longitude": 121.029648,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -19878,7 +19958,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -19967,6 +20047,7 @@
         "toilet",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -19978,7 +20059,7 @@
         "jp",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -20018,6 +20099,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -20031,7 +20113,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -20419,6 +20501,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -20430,7 +20513,7 @@
         "jp",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -20498,12 +20581,13 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "fresh",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -20986,6 +21070,7 @@
       "longitude": 120.866149,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "tea",
@@ -20994,7 +21079,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -21144,6 +21229,7 @@
       "longitude": 120.86468,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -21154,7 +21240,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -21192,6 +21278,7 @@
       "longitude": 120.823921,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -21200,7 +21287,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -21265,7 +21352,7 @@
       "specialShape": false
     },
     {
-      "id": "015523",
+      "id": "026126",
       "serviceId": "18905",
       "name": "全家苑裡新興店",
       "address": "苗栗縣苑裡鎮大同路３號",
@@ -21385,11 +21472,10 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "costco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -21407,6 +21493,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "tripk",
@@ -21414,7 +21501,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -21498,13 +21585,12 @@
         "ice",
         "sweetpotato",
         "photo",
-        "icecream",
         "toilet",
         "rest",
         "fresh",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -21661,14 +21747,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "costco",
         "fresh",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -22032,6 +22117,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -22043,7 +22129,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -22159,11 +22245,12 @@
       "longitude": 120.699588,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -22371,12 +22458,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -22501,11 +22587,12 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -22556,7 +22643,7 @@
       "specialShape": false
     },
     {
-      "id": "015379",
+      "id": "026012",
       "serviceId": "13598",
       "name": "全家大雅永和店",
       "address": "台中市大雅區永和路８９號１樓",
@@ -23014,6 +23101,7 @@
       "longitude": 120.716711,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -23025,7 +23113,7 @@
         "pok",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23149,13 +23237,14 @@
       "longitude": 120.711606,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "tripk",
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23197,13 +23286,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
         "goro",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23218,6 +23308,7 @@
       "longitude": 120.733193,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -23226,7 +23317,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23314,6 +23405,7 @@
         "sweetpotato",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -23326,7 +23418,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23342,7 +23434,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "dessert",
         "cs",
@@ -23351,7 +23442,7 @@
         "grill",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -23392,6 +23483,7 @@
         "sweetpotato",
         "photo",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -23401,7 +23493,7 @@
         "hd",
         "evc"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23593,6 +23685,7 @@
       "longitude": 120.683076,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -23604,7 +23697,7 @@
         "pok",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23713,11 +23806,12 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23775,12 +23869,13 @@
       "longitude": 120.70764999999999,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23903,6 +23998,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -23910,7 +24006,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -23990,6 +24086,7 @@
       "longitude": 120.677045,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -23998,7 +24095,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24013,6 +24110,7 @@
       "longitude": 120.682198,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -24023,7 +24121,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24084,6 +24182,7 @@
       "services": [
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -24092,7 +24191,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24109,6 +24208,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -24121,7 +24221,7 @@
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24251,6 +24351,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -24258,7 +24359,7 @@
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24275,13 +24376,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
         "tripk",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24369,6 +24471,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -24377,7 +24480,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24437,6 +24540,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -24445,7 +24549,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24526,7 +24630,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "tripk",
@@ -24534,7 +24637,7 @@
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -24572,12 +24675,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "tripk",
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24655,6 +24759,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -24668,7 +24773,7 @@
         "pok",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24683,6 +24788,7 @@
       "longitude": 120.653074,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -24693,7 +24799,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24872,6 +24978,7 @@
       "longitude": 120.60770857,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -24879,7 +24986,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24925,13 +25032,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -24974,6 +25082,7 @@
       "longitude": 120.623803,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -24983,7 +25092,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -25136,6 +25245,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -25144,7 +25254,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -25318,6 +25428,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -25327,7 +25438,7 @@
         "jp",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -25517,7 +25628,7 @@
       "specialShape": false
     },
     {
-      "id": "015380",
+      "id": "026053",
       "serviceId": "50255",
       "name": "全家台中科博館店",
       "address": "台中市西區博館路１１７號",
@@ -25771,13 +25882,14 @@
       "longitude": 120.565622,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -25889,6 +26001,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -25899,7 +26012,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -25958,6 +26071,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -25966,7 +26080,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -26008,13 +26122,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -26075,6 +26190,7 @@
       "longitude": 120.70407046130754,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -26083,7 +26199,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -26140,12 +26256,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -26160,13 +26275,14 @@
       "longitude": 120.708087,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "hd",
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -26303,6 +26419,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tripk",
@@ -26311,7 +26428,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -26475,6 +26592,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -26482,7 +26600,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -26525,6 +26643,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -26536,7 +26655,7 @@
         "npork",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -26777,14 +26896,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -26874,13 +26992,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "eco",
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -26920,6 +27039,7 @@
       "latitude": 24.120319,
       "longitude": 120.655296,
       "services": [
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -26929,7 +27049,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -27112,6 +27232,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "tripk",
@@ -27121,7 +27242,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -27300,13 +27421,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tripk",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -27322,10 +27444,9 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -27523,6 +27644,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tea",
@@ -27530,7 +27652,7 @@
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -28237,6 +28359,7 @@
       "longitude": 120.72423699999999,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "lcoffee",
@@ -28247,7 +28370,7 @@
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -28579,13 +28702,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tripk",
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -28625,12 +28749,13 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tripk",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -28783,11 +28908,12 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "tripk",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -28825,10 +28951,11 @@
       "longitude": 120.4276828,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -28918,6 +29045,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -28929,7 +29057,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -28989,6 +29117,7 @@
       "longitude": 120.5168266,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "tripk",
@@ -28996,7 +29125,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -29220,6 +29349,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
@@ -29229,7 +29359,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -29657,13 +29787,14 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "tripk",
         "fresh",
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -29768,6 +29899,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -29777,7 +29909,7 @@
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -29839,6 +29971,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "tea",
         "tripk",
@@ -29848,7 +29981,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -29965,13 +30098,14 @@
       "longitude": 120.5404897,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "tripk",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -30103,12 +30237,13 @@
       "longitude": 120.5458043,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -30449,11 +30584,12 @@
       "longitude": 121.167761,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "costco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -30507,10 +30643,11 @@
       "longitude": 120.700251,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -30613,13 +30750,14 @@
       "services": [
         "sweetpotato",
         "toilet",
+        "twoice",
         "famiice",
         "costco",
         "smart",
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -30723,13 +30861,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -30746,6 +30883,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -30754,7 +30892,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -30792,13 +30930,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "tea",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -30958,12 +31097,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31027,10 +31167,9 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -31047,11 +31186,12 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31230,13 +31370,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "fresh",
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31430,6 +31571,7 @@
       "longitude": 120.15068863,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "tea",
@@ -31441,7 +31583,7 @@
         "evc",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31456,6 +31598,7 @@
       "longitude": 120.39202595,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -31468,7 +31611,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31571,11 +31714,12 @@
       "longitude": 120.53444595,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "goro",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31642,6 +31786,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "tea",
         "tripk",
@@ -31650,7 +31795,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31734,12 +31879,13 @@
       "longitude": 120.55117595,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31766,7 +31912,7 @@
       "specialShape": false
     },
     {
-      "id": "015476",
+      "id": "026121",
       "serviceId": "51980",
       "name": "全家斗南新陽光店",
       "address": "雲林縣斗南鎮大成路６２號",
@@ -31803,12 +31949,13 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31826,6 +31973,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -31836,7 +31984,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31898,12 +32046,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "tripk",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31939,6 +32088,7 @@
       "longitude": 120.54466,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -31949,7 +32099,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -31984,12 +32134,13 @@
       "longitude": 120.455544,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "tea",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -32153,7 +32304,7 @@
       "specialShape": false
     },
     {
-      "id": "018549",
+      "id": "026764",
       "serviceId": "18422",
       "name": "全家林內采虹店",
       "address": "雲林縣林內鄉中正路３０號．３２號",
@@ -32272,12 +32423,13 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "tripk",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -32413,6 +32565,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -32420,7 +32573,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -32590,14 +32743,15 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
-      "id": "024817",
+      "id": "026734",
       "serviceId": "62889",
       "name": "全家嘉義友和店",
       "address": "嘉義市西區友愛路２００號",
@@ -32631,10 +32785,11 @@
       "longitude": 120.42288970947266,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -32696,12 +32851,13 @@
       "services": [
         "sweetpotato",
         "photo",
+        "twoice",
         "famiice",
         "costco",
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -32815,13 +32971,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "tea",
         "tripk",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -33202,6 +33359,7 @@
       "longitude": 120.332689,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -33211,7 +33369,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -33254,6 +33412,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "tripk",
@@ -33261,7 +33420,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -33298,6 +33457,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "tripk",
         "fresh",
@@ -33305,7 +33465,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -33323,6 +33483,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "tea",
@@ -33332,7 +33493,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -33349,6 +33510,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -33357,7 +33519,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -33509,6 +33671,7 @@
       "longitude": 120.24234,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "lcoffee",
         "dessert",
@@ -33518,7 +33681,7 @@
         "pok",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -33942,6 +34105,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cooknow",
@@ -33949,7 +34113,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -34111,6 +34275,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -34120,7 +34285,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -34230,13 +34395,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "eco",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -34344,7 +34510,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "rpotato",
@@ -34352,7 +34517,7 @@
         "npork",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -34436,12 +34601,13 @@
       "longitude": 120.253299,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -34631,6 +34797,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
@@ -34639,7 +34806,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -34657,6 +34824,7 @@
         "toilet",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "cs",
         "tea",
@@ -34664,7 +34832,7 @@
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -34844,13 +35012,14 @@
       "longitude": 120.234937,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "tripk",
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -34938,6 +35107,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "tea",
@@ -34945,7 +35115,7 @@
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -34962,6 +35132,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -34973,7 +35144,7 @@
         "jp",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -35326,13 +35497,14 @@
       "longitude": 120.403198,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "lcoffee",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -35420,6 +35592,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -35430,7 +35603,7 @@
         "jp",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -35494,14 +35667,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "eco",
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -35658,6 +35830,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -35665,7 +35838,7 @@
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -35726,8 +35899,8 @@
       "longitude": 120.185542,
       "services": [
         "sweetpotato",
-        "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tea",
@@ -35735,7 +35908,7 @@
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -35800,11 +35973,12 @@
       "longitude": 120.192391,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -35868,6 +36042,7 @@
         "sweetpotato",
         "photo",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -35876,7 +36051,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -35936,7 +36111,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "rpotato",
@@ -35944,7 +36118,7 @@
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -36084,6 +36258,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "costco",
         "cs",
@@ -36094,7 +36269,7 @@
         "pok",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -36532,7 +36707,6 @@
         "ice",
         "sweetpotato",
         "photo",
-        "icecream",
         "toilet",
         "rest",
         "rpotato",
@@ -36542,7 +36716,7 @@
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -36713,14 +36887,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "eco",
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -36735,6 +36908,7 @@
       "longitude": 120.312042,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -36748,7 +36922,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -36795,6 +36969,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -36804,7 +36979,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -36894,6 +37069,7 @@
       "longitude": 120.32484471,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "super",
         "fresh",
@@ -36901,7 +37077,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -36938,12 +37114,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -36960,6 +37137,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -36973,7 +37151,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -37053,10 +37231,11 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -37123,6 +37302,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
@@ -37130,7 +37310,7 @@
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -37172,10 +37352,11 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -37464,11 +37645,10 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -37503,6 +37683,7 @@
       "longitude": 120.391263,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -37513,7 +37694,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -37530,10 +37711,11 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -37649,11 +37831,10 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "cs",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -37947,6 +38128,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "tea",
@@ -37955,7 +38137,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -38049,12 +38231,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -38193,12 +38376,13 @@
       "longitude": 120.307235,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -38352,12 +38536,13 @@
         "sweetpotato",
         "photo",
         "rest",
+        "twoice",
         "famiice",
         "tea",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -38373,12 +38558,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -38487,6 +38671,7 @@
       "longitude": 120.326719,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -38494,7 +38679,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -38791,6 +38976,7 @@
         "sweetpotato",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "tanhou",
         "rpotato",
@@ -38802,7 +38988,7 @@
         "fzo",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -38818,12 +39004,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -39052,12 +39237,13 @@
         "sweetpotato",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -39579,7 +39765,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "rpotato",
@@ -39588,7 +39773,7 @@
         "npork",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -39716,6 +39901,7 @@
       "services": [
         "sweetpotato",
         "veg",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -39727,7 +39913,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -39787,7 +39973,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "lcoffee",
         "costco",
@@ -39797,7 +39982,7 @@
         "hd",
         "wei"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -39959,13 +40144,14 @@
       "longitude": 120.257867,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "tripk",
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -39980,6 +40166,7 @@
       "longitude": 120.261957,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -39990,11 +40177,11 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
-      "id": "024815",
+      "id": "026267",
       "serviceId": "17255",
       "name": "全家高雄國泰店",
       "address": "高雄市鼓山區九如四路６８７，６８９號",
@@ -40031,7 +40218,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "cs",
         "eco",
@@ -40040,7 +40226,7 @@
         "hd",
         "wei"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -40110,14 +40296,13 @@
         "sweetpotato",
         "toilet",
         "rest",
-        "twoice",
         "rpotato",
         "dessert",
         "cs",
         "fresh",
         "hd"
       ],
-      "machine": "double",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -40132,6 +40317,7 @@
       "longitude": 120.287619,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "lcoffee",
@@ -40142,7 +40328,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -40262,13 +40448,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "goro",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -40308,12 +40495,13 @@
       "longitude": 120.270491,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "lcoffee",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -40353,13 +40541,14 @@
         "sweetpotato",
         "photo",
         "toilet",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "goro",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -40844,6 +41033,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -40856,7 +41046,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -41052,12 +41242,13 @@
       "longitude": 120.282688,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -41075,6 +41266,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "dessert",
         "cs",
@@ -41085,7 +41277,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -41149,6 +41341,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -41157,7 +41350,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -41241,6 +41434,7 @@
         "sweetpotato",
         "photo",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -41252,7 +41446,7 @@
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -41357,6 +41551,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -41369,7 +41564,7 @@
         "pok",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -41772,6 +41967,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -41783,7 +41979,7 @@
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -41944,12 +42140,13 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -42285,12 +42482,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -42415,13 +42613,14 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -42547,10 +42746,11 @@
       "longitude": 121.795982,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -42588,12 +42788,13 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -42800,12 +43001,13 @@
       "longitude": 121.75760132,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -42985,13 +43187,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "cooknow",
         "npork",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -43149,15 +43352,16 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
-      "id": "017552",
+      "id": "026257",
       "serviceId": "15031",
       "name": "全家蘇澳馬賽店",
       "address": "宜蘭縣蘇澳鎮大同路７號１樓",
@@ -43324,7 +43528,7 @@
       "specialShape": false
     },
     {
-      "id": "015318",
+      "id": "026259",
       "serviceId": "51749",
       "name": "全家吉安鑫莊敬店",
       "address": "花蓮縣吉安鄉自強路６０３號",
@@ -43410,6 +43614,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -43420,7 +43625,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -43436,14 +43641,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "cs",
         "tripk",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -43459,6 +43663,7 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -43469,7 +43674,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -43613,6 +43818,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -43622,7 +43828,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -43996,12 +44202,13 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44019,6 +44226,7 @@
         "photo",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -44029,7 +44237,7 @@
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44045,13 +44253,14 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44066,6 +44275,7 @@
       "longitude": 121.134304,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -44073,7 +44283,7 @@
         "pok",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44090,6 +44300,7 @@
         "sweetpotato",
         "toilet",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
@@ -44100,7 +44311,7 @@
         "pok",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44184,13 +44395,14 @@
         "toilet",
         "rest",
         "veg",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44341,12 +44553,13 @@
       "services": [
         "sweetpotato",
         "rest",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
         "npork"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44442,7 +44655,7 @@
       "specialShape": false
     },
     {
-      "id": "024762",
+      "id": "026180",
       "serviceId": "64762",
       "name": "全家澎湖衛中店",
       "address": "澎湖縣馬公市西衛里西衛１３３號",
@@ -44518,10 +44731,9 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -44688,12 +44900,13 @@
       "longitude": 118.3220769,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "fresh",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44728,12 +44941,13 @@
       "longitude": 118.373953,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "rpotato",
         "dessert",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44749,6 +44963,7 @@
       "services": [
         "sweetpotato",
         "toilet",
+        "twoice",
         "famiice",
         "rpotato",
         "costco",
@@ -44756,7 +44971,7 @@
         "tripk",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44792,12 +45007,13 @@
       "longitude": 119.949312,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -44835,13 +45051,14 @@
       "longitude": 119.949929,
       "services": [
         "sweetpotato",
+        "twoice",
         "famiice",
         "dessert",
         "tripk",
         "grill",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     }
   ]
