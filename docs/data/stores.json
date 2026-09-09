@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-02T16:49:01.378Z",
+    "updatedAt": "2026-09-09T16:51:23.080Z",
     "source": "https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx",
-    "count": 1915,
+    "count": 1914,
     "counts": {
       "single": 1253,
-      "double": 598,
+      "double": 597,
       "specialShape": 282,
       "unclassified": 64
     }
@@ -4159,7 +4159,7 @@
       "specialShape": false
     },
     {
-      "id": "016836",
+      "id": "026263",
       "serviceId": "52233",
       "name": "全家興政店",
       "address": "台北市文山區指南路二段８３號壹＋貳樓",
@@ -20365,6 +20365,7 @@
         "sweetpotato",
         "icecream",
         "dessert",
+        "super",
         "fresh",
         "grill",
         "hd"
@@ -25485,6 +25486,7 @@
         "cs",
         "smart",
         "tripk",
+        "super",
         "fresh",
         "eco",
         "grill",
@@ -30673,7 +30675,7 @@
       "specialShape": false
     },
     {
-      "id": "022923",
+      "id": "026225",
       "serviceId": "62923",
       "name": "全家竹山大頂店",
       "address": "南投縣竹山鎮大智路７２５號",
@@ -37652,7 +37654,7 @@
       "specialShape": false
     },
     {
-      "id": "019593",
+      "id": "026199",
       "serviceId": "59593",
       "name": "全家大發翁園店",
       "address": "高雄市大寮區巷尾路２之１號",
@@ -40029,6 +40031,7 @@
         "dessert",
         "costco",
         "cs",
+        "super",
         "eco",
         "grill",
         "hd"
@@ -40255,7 +40258,7 @@
       "specialShape": false
     },
     {
-      "id": "024524",
+      "id": "026057",
       "serviceId": "50367",
       "name": "全家高雄美明店",
       "address": "高雄市鼓山區美明路１０２號",
@@ -43525,33 +43528,6 @@
         "hd"
       ],
       "machine": "single",
-      "specialShape": false
-    },
-    {
-      "id": "026259",
-      "serviceId": "51749",
-      "name": "全家吉安鑫莊敬店",
-      "address": "花蓮縣吉安鄉自強路６０３號",
-      "city": "花蓮縣",
-      "postalCode": "973",
-      "phone": "03-8561115",
-      "latitude": 23.98923065,
-      "longitude": 121.59370128,
-      "services": [
-        "ice",
-        "sweetpotato",
-        "photo",
-        "rest",
-        "twoice",
-        "rpotato",
-        "dessert",
-        "cs",
-        "tripk",
-        "fresh",
-        "eco",
-        "hd"
-      ],
-      "machine": "double",
       "specialShape": false
     },
     {
