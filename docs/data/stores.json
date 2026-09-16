@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-09T16:51:23.080Z",
+    "updatedAt": "2026-09-16T17:14:43.426Z",
     "source": "https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx",
     "count": 1914,
     "counts": {
-      "single": 1253,
-      "double": 597,
+      "single": 1242,
+      "double": 595,
       "specialShape": 282,
-      "unclassified": 64
+      "unclassified": 77
     }
   },
   "stores": [
@@ -907,7 +907,6 @@
         "rpotato",
         "costco",
         "cs",
-        "fresh",
         "eco",
         "hd"
       ],
@@ -1050,8 +1049,8 @@
         "costco",
         "cs",
         "tripk",
+        "fresh",
         "eco",
-        "cooknow",
         "hd"
       ],
       "machine": "single",
@@ -1128,8 +1127,8 @@
         "icecream",
         "rpotato",
         "cs",
+        "fresh",
         "eco",
-        "cooknow",
         "hd"
       ],
       "machine": "single",
@@ -1334,12 +1333,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "fresh",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -1424,8 +1422,6 @@
         "sweetpotato",
         "icecream",
         "rpotato",
-        "dessert",
-        "grill",
         "hd",
         "jp"
       ],
@@ -1627,11 +1623,9 @@
         "sweetpotato",
         "rest",
         "rpotato",
-        "dessert",
         "cs",
         "super",
         "fresh",
-        "grill",
         "hd"
       ],
       "machine": "unknown",
@@ -1679,7 +1673,6 @@
         "rpotato",
         "cs",
         "fresh",
-        "cooknow",
         "hd"
       ],
       "machine": "single",
@@ -2420,7 +2413,7 @@
       "specialShape": true
     },
     {
-      "id": "026189",
+      "id": "026248",
       "serviceId": "58109",
       "name": "全家松茂店",
       "address": "台北市中山區松江路１２７之１號１樓及地下室",
@@ -2530,14 +2523,14 @@
       "longitude": 121.525557,
       "services": [
         "sweetpotato",
-        "twoice",
+        "icecream",
         "famiice",
         "rpotato",
         "cs",
         "tripk",
         "hd"
       ],
-      "machine": "double",
+      "machine": "single",
       "specialShape": true
     },
     {
@@ -2829,7 +2822,6 @@
         "twoice",
         "rpotato",
         "cs",
-        "fresh",
         "hd"
       ],
       "machine": "double",
@@ -4681,7 +4673,6 @@
         "sweetpotato",
         "icecream",
         "rpotato",
-        "dessert",
         "costco",
         "cs",
         "hd"
@@ -5337,7 +5328,6 @@
         "tripk",
         "fresh",
         "grill",
-        "cooknow",
         "hd"
       ],
       "machine": "double",
@@ -5367,7 +5357,6 @@
         "super",
         "fresh",
         "grill",
-        "cooknow",
         "hd"
       ],
       "machine": "single",
@@ -6024,8 +6013,8 @@
         "dessert",
         "cs",
         "tea",
+        "fresh",
         "grill",
-        "cooknow",
         "hd",
         "wei"
       ],
@@ -6474,7 +6463,6 @@
         "ice",
         "sweetpotato",
         "twoice",
-        "fresh",
         "hd"
       ],
       "machine": "double",
@@ -6806,6 +6794,7 @@
         "twoice",
         "famiice",
         "rpotato",
+        "dessert",
         "cs",
         "fresh",
         "eco",
@@ -6932,7 +6921,6 @@
         "ice",
         "sweetpotato",
         "icecream",
-        "fresh",
         "hd"
       ],
       "machine": "single",
@@ -7889,7 +7877,6 @@
         "costco",
         "cs",
         "fresh",
-        "npork",
         "hd",
         "jp"
       ],
@@ -8218,6 +8205,7 @@
         "costco",
         "cs",
         "tea",
+        "grill",
         "hd",
         "fzo"
       ],
@@ -8317,7 +8305,7 @@
       "specialShape": false
     },
     {
-      "id": "026274",
+      "id": "026220",
       "serviceId": "15959",
       "name": "全家中和中鼎店",
       "address": "新北市中和區中安里中安街８０號一樓",
@@ -8460,7 +8448,6 @@
         "sweetpotato",
         "twoice",
         "cs",
-        "fresh",
         "eco",
         "hd",
         "fzo"
@@ -8645,7 +8632,6 @@
         "fresh",
         "eco",
         "grill",
-        "cooknow",
         "hd",
         "fzo"
       ],
@@ -8712,8 +8698,8 @@
         "rpotato",
         "dessert",
         "cs",
+        "fresh",
         "eco",
-        "cooknow",
         "hd",
         "jp"
       ],
@@ -8755,7 +8741,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "veg",
         "rpotato",
@@ -8765,7 +8750,7 @@
         "grill",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -8843,7 +8828,6 @@
         "tea",
         "fresh",
         "eco",
-        "cooknow",
         "hd"
       ],
       "machine": "double",
@@ -9009,6 +8993,7 @@
         "toilet",
         "rest",
         "cs",
+        "fresh",
         "hd",
         "fzo"
       ],
@@ -9124,6 +9109,7 @@
       "latitude": 24.99435,
       "longitude": 121.466456,
       "services": [
+        "sweetpotato",
         "photo",
         "rest",
         "twoice",
@@ -9131,9 +9117,8 @@
         "rpotato",
         "cs",
         "tea",
+        "fresh",
         "eco",
-        "grill",
-        "cooknow",
         "hd",
         "pok",
         "fzo"
@@ -9159,7 +9144,6 @@
         "cs",
         "fresh",
         "eco",
-        "cooknow",
         "hd",
         "fzo"
       ],
@@ -9233,7 +9217,6 @@
         "fresh",
         "eco",
         "grill",
-        "cooknow",
         "npork",
         "hd"
       ],
@@ -10136,13 +10119,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "cs",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -11746,8 +11728,8 @@
         "dessert",
         "cs",
         "tea",
+        "fresh",
         "grill",
-        "cooknow",
         "hd",
         "fzo"
       ],
@@ -11993,10 +11975,9 @@
       "longitude": 121.424609,
       "services": [
         "ice",
+        "sweetpotato",
         "icecream",
         "rpotato",
-        "dessert",
-        "grill",
         "cooknow",
         "hd"
       ],
@@ -12217,7 +12198,6 @@
         "costco",
         "cs",
         "tea",
-        "cooknow",
         "hd",
         "pok"
       ],
@@ -12333,6 +12313,7 @@
         "toilet",
         "rest",
         "twoice",
+        "dessert",
         "eco",
         "hd"
       ],
@@ -12899,7 +12880,6 @@
       "latitude": 24.971574,
       "longitude": 121.535797,
       "services": [
-        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -12909,7 +12889,7 @@
         "hd",
         "pok"
       ],
-      "machine": "double",
+      "machine": "unknown",
       "specialShape": true
     },
     {
@@ -13226,7 +13206,6 @@
         "twoice",
         "rpotato",
         "cs",
-        "cooknow",
         "npork",
         "hd",
         "fzo",
@@ -13267,12 +13246,8 @@
       "latitude": 24.984655,
       "longitude": 121.5276,
       "services": [
-        "sweetpotato",
         "famiice",
-        "dessert",
-        "smart",
-        "grill",
-        "hd"
+        "smart"
       ],
       "machine": "unknown",
       "specialShape": true
@@ -13385,6 +13360,7 @@
         "rpotato",
         "costco",
         "cs",
+        "fresh",
         "eco",
         "hd",
         "jp"
@@ -13528,14 +13504,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "costco",
         "cs",
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -13596,7 +13571,6 @@
         "ice",
         "icecream",
         "rpotato",
-        "fresh",
         "hd"
       ],
       "machine": "single",
@@ -14697,7 +14671,6 @@
         "cs",
         "eco",
         "grill",
-        "cooknow",
         "hd",
         "jp"
       ],
@@ -14832,7 +14805,6 @@
       "longitude": 121.471654,
       "services": [
         "ice",
-        "icecream",
         "toilet",
         "rest",
         "dessert",
@@ -14841,7 +14813,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -15019,6 +14991,7 @@
         "twoice",
         "cs",
         "tripk",
+        "cooknow",
         "hd"
       ],
       "machine": "double",
@@ -15722,6 +15695,7 @@
         "tripk",
         "goro",
         "super",
+        "fresh",
         "cooknow",
         "hd",
         "wei"
@@ -15741,13 +15715,14 @@
       "longitude": 121.168982,
       "services": [
         "ice",
+        "icecream",
         "rpotato",
         "dessert",
         "grill",
         "hd",
         "jp"
       ],
-      "machine": "unknown",
+      "machine": "single",
       "specialShape": false
     },
     {
@@ -15836,7 +15811,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "lcoffee",
@@ -15850,7 +15824,7 @@
         "jp",
         "pok"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -16411,7 +16385,7 @@
         "rest",
         "rpotato",
         "cs",
-        "cooknow",
+        "fresh",
         "npork",
         "hd"
       ],
@@ -17740,6 +17714,7 @@
         "sweetpotato",
         "twoice",
         "dessert",
+        "fresh",
         "grill",
         "cooknow",
         "hd"
@@ -18410,6 +18385,7 @@
         "famiice",
         "costco",
         "cs",
+        "fresh",
         "cooknow",
         "npork",
         "hd",
@@ -18466,7 +18442,6 @@
         "costco",
         "cs",
         "tea",
-        "fresh",
         "hd",
         "jp"
       ],
@@ -18726,10 +18701,9 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -19336,6 +19310,7 @@
         "costco",
         "cs",
         "tea",
+        "fresh",
         "grill",
         "hd",
         "wei"
@@ -20078,7 +20053,6 @@
         "icecream",
         "rpotato",
         "tea",
-        "fresh",
         "eco",
         "hd"
       ],
@@ -20456,8 +20430,8 @@
         "sweetpotato",
         "twoice",
         "rpotato",
-        "dessert",
         "cs",
+        "fresh",
         "eco",
         "grill",
         "hd"
@@ -20695,7 +20669,6 @@
         "cs",
         "fresh",
         "cooknow",
-        "npork",
         "hd",
         "jp"
       ],
@@ -20759,6 +20732,8 @@
         "sweetpotato",
         "icecream",
         "dessert",
+        "cooknow",
+        "npork",
         "hd",
         "fzo"
       ],
@@ -21030,6 +21005,7 @@
         "dessert",
         "cs",
         "tripk",
+        "fresh",
         "grill",
         "cooknow",
         "hd",
@@ -21051,12 +21027,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "lcoffee",
         "costco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -21140,12 +21115,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "costco",
         "tripk",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -21976,7 +21950,7 @@
         "ice",
         "sweetpotato",
         "icecream",
-        "fresh",
+        "cooknow",
         "hd"
       ],
       "machine": "single",
@@ -23464,6 +23438,7 @@
         "rest",
         "rpotato",
         "cs",
+        "fresh",
         "eco",
         "hd"
       ],
@@ -23572,7 +23547,6 @@
         "rpotato",
         "cs",
         "eco",
-        "cooknow",
         "hd"
       ],
       "machine": "single",
@@ -24453,7 +24427,6 @@
         "cs",
         "tea",
         "grill",
-        "cooknow",
         "hd"
       ],
       "machine": "single",
@@ -26524,7 +26497,6 @@
         "tea",
         "tripk",
         "goro",
-        "fresh",
         "eco",
         "grill",
         "hd",
@@ -26654,7 +26626,6 @@
         "tea",
         "eco",
         "cooknow",
-        "npork",
         "hd"
       ],
       "machine": "double",
@@ -29005,7 +28976,7 @@
         "dessert",
         "tea",
         "tripk",
-        "cooknow",
+        "fresh",
         "hd",
         "fzo"
       ],
@@ -30386,7 +30357,6 @@
         "tripk",
         "fresh",
         "eco",
-        "cooknow",
         "hd"
       ],
       "machine": "single",
@@ -30406,14 +30376,13 @@
         "ice",
         "sweetpotato",
         "photo",
-        "icecream",
         "toilet",
         "rest",
         "tea",
         "hd",
         "fzo"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -30545,7 +30514,6 @@
         "tea",
         "tripk",
         "cooknow",
-        "npork",
         "hd"
       ],
       "machine": "single",
@@ -31375,7 +31343,6 @@
         "twoice",
         "famiice",
         "dessert",
-        "fresh",
         "grill",
         "hd"
       ],
@@ -31534,6 +31501,8 @@
         "toilet",
         "rest",
         "twoice",
+        "dessert",
+        "grill",
         "hd"
       ],
       "machine": "double",
@@ -31602,12 +31571,10 @@
         "sweetpotato",
         "twoice",
         "famiice",
-        "dessert",
         "cs",
         "tea",
         "tripk",
         "eco",
-        "grill",
         "hd",
         "pok",
         "fzo",
@@ -31856,7 +31823,6 @@
       "longitude": 120.529644,
       "services": [
         "ice",
-        "sweetpotato",
         "icecream",
         "rest",
         "dessert",
@@ -31982,7 +31948,6 @@
         "cs",
         "fresh",
         "grill",
-        "cooknow",
         "hd",
         "wei"
       ],
@@ -32341,6 +32306,8 @@
         "sweetpotato",
         "icecream",
         "rest",
+        "dessert",
+        "grill",
         "hd",
         "jp"
       ],
@@ -32502,7 +32469,6 @@
         "cs",
         "fresh",
         "cooknow",
-        "npork",
         "hd",
         "fzo"
       ],
@@ -32523,8 +32489,6 @@
         "ice",
         "sweetpotato",
         "icecream",
-        "dessert",
-        "grill",
         "hd"
       ],
       "machine": "single",
@@ -33048,6 +33012,7 @@
         "sweetpotato",
         "icecream",
         "rest",
+        "fresh",
         "eco",
         "hd"
       ],
@@ -33297,7 +33262,6 @@
         "sweetpotato",
         "icecream",
         "toilet",
-        "fresh",
         "hd"
       ],
       "machine": "single",
@@ -33514,10 +33478,8 @@
         "rest",
         "twoice",
         "famiice",
-        "dessert",
         "cs",
         "tea",
-        "grill",
         "hd",
         "jp"
       ],
@@ -34434,7 +34396,7 @@
       "specialShape": false
     },
     {
-      "id": "024342",
+      "id": "026249",
       "serviceId": "64342",
       "name": "全家永康龍登店",
       "address": "台南市永康區八德街４５６號",
@@ -34584,7 +34546,6 @@
         "toilet",
         "rest",
         "twoice",
-        "fresh",
         "eco",
         "hd"
       ],
@@ -35567,7 +35528,6 @@
         "ice",
         "sweetpotato",
         "photo",
-        "icecream",
         "toilet",
         "rest",
         "rpotato",
@@ -35576,7 +35536,7 @@
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -36786,13 +36746,12 @@
         "toilet",
         "rest",
         "rpotato",
-        "dessert",
         "cs",
         "tea",
         "tripk",
         "goro",
+        "fresh",
         "eco",
-        "grill",
         "hd"
       ],
       "machine": "single",
@@ -37074,7 +37033,6 @@
         "twoice",
         "famiice",
         "super",
-        "fresh",
         "eco",
         "hd",
         "jp"
@@ -37149,7 +37107,6 @@
         "tripk",
         "eco",
         "grill",
-        "cooknow",
         "hd",
         "jp"
       ],
@@ -37356,6 +37313,7 @@
         "rest",
         "twoice",
         "famiice",
+        "fresh",
         "hd"
       ],
       "machine": "double",
@@ -37446,7 +37404,6 @@
         "icecream",
         "rest",
         "cs",
-        "fresh",
         "hd",
         "jp"
       ],
@@ -38164,6 +38121,7 @@
         "smart",
         "tea",
         "super",
+        "fresh",
         "grill",
         "cooknow",
         "hd",
@@ -38740,7 +38698,7 @@
       "name": "全家高雄天河店",
       "address": "高雄市前金區市中一路９９號一樓部分範圍",
       "city": "高雄市",
-      "postalCode": "802",
+      "postalCode": "801",
       "phone": "07-2417251",
       "latitude": 22.623101,
       "longitude": 120.292243,
@@ -39702,8 +39660,6 @@
         "tea",
         "eco",
         "grill",
-        "cooknow",
-        "npork",
         "hd",
         "wei"
       ],
@@ -40598,7 +40554,6 @@
         "sweetpotato",
         "icecream",
         "rpotato",
-        "grill",
         "hd",
         "jp"
       ],
@@ -40697,14 +40652,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "cs",
         "hd",
         "wei"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -40780,6 +40734,7 @@
         "cs",
         "tea",
         "eco",
+        "grill",
         "cooknow",
         "hd",
         "jp"
@@ -41898,7 +41853,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "rpotato",
@@ -41907,7 +41861,7 @@
         "hd",
         "fzo"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -41927,8 +41881,8 @@
         "rest",
         "dessert",
         "tripk",
+        "fresh",
         "grill",
-        "cooknow",
         "hd"
       ],
       "machine": "single",
@@ -41978,7 +41932,6 @@
         "tripk",
         "grill",
         "cooknow",
-        "npork",
         "hd",
         "pok"
       ],
