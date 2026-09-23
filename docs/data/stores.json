@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-16T17:14:43.426Z",
+    "updatedAt": "2026-09-23T17:25:10.202Z",
     "source": "https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx",
     "count": 1914,
     "counts": {
-      "single": 1242,
-      "double": 595,
+      "single": 1244,
+      "double": 594,
       "specialShape": 282,
-      "unclassified": 77
+      "unclassified": 76
     }
   },
   "stores": [
@@ -3797,7 +3797,6 @@
         "ice",
         "sweetpotato",
         "rest",
-        "twoice",
         "dessert",
         "cs",
         "smart",
@@ -3805,7 +3804,7 @@
         "eco",
         "hd"
       ],
-      "machine": "double",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -8325,7 +8324,7 @@
       "specialShape": false
     },
     {
-      "id": "016316",
+      "id": "026317",
       "serviceId": "10814",
       "name": "全家中和中安店",
       "address": "新北市中和區中安街１９２號",
@@ -9075,7 +9074,7 @@
       "specialShape": true
     },
     {
-      "id": "017906",
+      "id": "026315",
       "serviceId": "52742",
       "name": "全家中和新正店",
       "address": "新北市中和區新生街１９０號１樓",
@@ -10119,12 +10118,13 @@
       "services": [
         "ice",
         "sweetpotato",
+        "icecream",
         "rest",
         "rpotato",
         "cs",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "single",
       "specialShape": false
     },
     {
@@ -13176,7 +13176,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "veg",
         "laundry",
         "dessert",
@@ -13186,7 +13185,7 @@
         "grill",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -13769,7 +13768,7 @@
       "specialShape": true
     },
     {
-      "id": "022436",
+      "id": "026281",
       "serviceId": "55189",
       "name": "全家新莊迴龍店",
       "address": "新北市新莊區中正路８９５－２６號１樓",
@@ -13830,10 +13829,9 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -14174,7 +14172,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "toilet",
         "rest",
         "twoice",
         "cs",
@@ -15811,6 +15808,7 @@
       "services": [
         "ice",
         "sweetpotato",
+        "icecream",
         "toilet",
         "rest",
         "lcoffee",
@@ -15824,7 +15822,7 @@
         "jp",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "single",
       "specialShape": false
     },
     {
@@ -19237,13 +19235,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "dessert",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -20207,7 +20204,7 @@
       "specialShape": false
     },
     {
-      "id": "019572",
+      "id": "026278",
       "serviceId": "59572",
       "name": "全家竹北鹿場店",
       "address": "新竹縣竹北市莊敬南路１０５號１樓部份範圍",
@@ -21027,11 +21024,12 @@
       "services": [
         "ice",
         "sweetpotato",
+        "icecream",
         "lcoffee",
         "costco",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "single",
       "specialShape": false
     },
     {
@@ -21115,11 +21113,12 @@
       "services": [
         "ice",
         "sweetpotato",
+        "icecream",
         "costco",
         "tripk",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "single",
       "specialShape": false
     },
     {
@@ -40652,13 +40651,14 @@
       "services": [
         "ice",
         "sweetpotato",
+        "icecream",
         "rest",
         "rpotato",
         "cs",
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "single",
       "specialShape": false
     },
     {
