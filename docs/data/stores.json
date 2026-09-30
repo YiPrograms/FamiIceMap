@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-23T17:25:10.202Z",
+    "updatedAt": "2026-09-30T18:05:46.241Z",
     "source": "https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx",
-    "count": 1914,
+    "count": 1913,
     "counts": {
-      "single": 1244,
-      "double": 594,
+      "single": 1240,
+      "double": 595,
       "specialShape": 282,
-      "unclassified": 76
+      "unclassified": 78
     }
   },
   "stores": [
@@ -365,7 +365,7 @@
       "specialShape": false
     },
     {
-      "id": "016926",
+      "id": "026323",
       "serviceId": "15416",
       "name": "全家基隆武嶺店",
       "address": "基隆市安樂區武嶺街１８１－６號１樓",
@@ -2965,7 +2965,7 @@
       "specialShape": true
     },
     {
-      "id": "026188",
+      "id": "026287",
       "serviceId": "58620",
       "name": "全家龍京店",
       "address": "台北市中山區龍江路１０２號１樓",
@@ -6021,7 +6021,7 @@
       "specialShape": false
     },
     {
-      "id": "022958",
+      "id": "026345",
       "serviceId": "52157",
       "name": "全家新成鑫店",
       "address": "台北市南港區玉成街１７６巷１號",
@@ -12139,27 +12139,6 @@
       "specialShape": false
     },
     {
-      "id": "021926",
-      "serviceId": "61926",
-      "name": "全家淡水捷運店",
-      "address": "新北市淡水區中正路１號（捷運站１２號舖面）",
-      "city": "新北市",
-      "postalCode": "251",
-      "phone": "02-26269599",
-      "latitude": 25.16823193,
-      "longitude": 121.44555426,
-      "services": [
-        "ice",
-        "sweetpotato",
-        "icecream",
-        "cs",
-        "fresh",
-        "hd"
-      ],
-      "machine": "single",
-      "specialShape": false
-    },
-    {
       "id": "025181",
       "serviceId": "65181",
       "name": "全家淡水河岸店",
@@ -12880,6 +12859,7 @@
       "latitude": 24.971574,
       "longitude": 121.535797,
       "services": [
+        "twoice",
         "famiice",
         "dessert",
         "costco",
@@ -12889,7 +12869,7 @@
         "hd",
         "pok"
       ],
-      "machine": "unknown",
+      "machine": "double",
       "specialShape": true
     },
     {
@@ -16182,7 +16162,7 @@
       "specialShape": false
     },
     {
-      "id": "026794",
+      "id": "026245",
       "serviceId": "15531",
       "name": "全家中壢復華店",
       "address": "桃園市中壢區復華里自強四路８８號一樓",
@@ -17859,14 +17839,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "cs",
         "fresh",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -18577,7 +18556,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "dessert",
         "cs",
@@ -18586,7 +18564,7 @@
         "cooknow",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -19061,7 +19039,7 @@
       "specialShape": false
     },
     {
-      "id": "020997",
+      "id": "026275",
       "serviceId": "55680",
       "name": "全家新竹巨城店",
       "address": "新竹市東區中央路２２９號Ｂ１",
@@ -20204,7 +20182,7 @@
       "specialShape": false
     },
     {
-      "id": "026278",
+      "id": "026291",
       "serviceId": "59572",
       "name": "全家竹北鹿場店",
       "address": "新竹縣竹北市莊敬南路１０５號１樓部份範圍",
@@ -26528,7 +26506,7 @@
       "specialShape": false
     },
     {
-      "id": "015646",
+      "id": "026774",
       "serviceId": "55537",
       "name": "全家台中金勇店",
       "address": "台中市南屯區忠勇路７１－１號",
@@ -27603,7 +27581,7 @@
       "specialShape": false
     },
     {
-      "id": "015470",
+      "id": "026222",
       "serviceId": "13067",
       "name": "全家清水中山店",
       "address": "台中市清水區清水里中山路１１０號",
@@ -28024,7 +28002,7 @@
       "specialShape": false
     },
     {
-      "id": "018027",
+      "id": "026150",
       "serviceId": "13860",
       "name": "全家龍井藝術店",
       "address": "台中市龍井區東海里１０鄰藝術街９２號１樓",
@@ -31279,11 +31257,10 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "dessert",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -32270,7 +32247,7 @@
       "specialShape": false
     },
     {
-      "id": "026764",
+      "id": "026269",
       "serviceId": "18422",
       "name": "全家林內采虹店",
       "address": "雲林縣林內鄉中正路３０號．３２號",
@@ -34010,7 +33987,7 @@
       "specialShape": false
     },
     {
-      "id": "021081",
+      "id": "026318",
       "serviceId": "61081",
       "name": "全家仁德春風店",
       "address": "台南市仁德區中清路２號",
@@ -40539,7 +40516,7 @@
       "specialShape": false
     },
     {
-      "id": "025227",
+      "id": "026338",
       "serviceId": "64961",
       "name": "全家鳳山鳳學店",
       "address": "高雄市鳳山區中山東路１９２巷１２５號、１２７號一樓",
@@ -41341,7 +41318,7 @@
       "address": "屏東縣內埔鄉學府路１號",
       "city": "屏東縣",
       "postalCode": "912",
-      "phone": "08-7740519",
+      "phone": "08-7740297",
       "latitude": 22.641196,
       "longitude": 120.596084,
       "services": [
