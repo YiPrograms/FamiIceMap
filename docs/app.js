@@ -262,19 +262,26 @@ function initializeMap() {
   });
 
   L.control.zoom({ position: "topright" }).addTo(state.map);
-  // OpenFreeMap offers a light basemap without an API key; keep a raster fallback
-  // for browsers that cannot render MapLibre's WebGL vector tiles.
+  // MapLibre GL JS v5 does not expose supported(); test for the map constructor
+  // and fall back to raster tiles if the vector layer cannot initialize.
   const osmAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-  if (typeof L.maplibreGL === "function" && window.maplibregl?.supported()) {
-    L.maplibreGL({
-      style: "https://tiles.openfreemap.org/styles/positron",
-      attribution: '&copy; <a href="https://openfreemap.org/">OpenFreeMap</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> ' + osmAttribution
-    }).addTo(state.map);
+  const addRasterBasemap = () => L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: osmAttribution
+  }).addTo(state.map);
+
+  if (typeof L.maplibreGL === "function" && typeof window.maplibregl?.Map === "function") {
+    try {
+      L.maplibreGL({
+        style: "https://tiles.openfreemap.org/styles/positron",
+        attribution: '&copy; <a href="https://openfreemap.org/">OpenFreeMap</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> ' + osmAttribution
+      }).addTo(state.map);
+    } catch (error) {
+      console.warn("OpenFreeMap could not initialize; using raster basemap", error);
+      addRasterBasemap();
+    }
   } else {
-    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution: osmAttribution
-    }).addTo(state.map);
+    addRasterBasemap();
   }
 
   state.markerRenderer = L.canvas({ padding: 0.5 });
@@ -511,15 +518,27 @@ async function start() {
     state.stores = payload.stores;
     renderCounts(payload.metadata);
     populateCitySelect();
-    initializeMap();
-    applyFilters({ fitMap: state.city !== "all" || state.filters.size > 0 });
-    setMode(state.mode);
   } catch (error) {
-    console.error(error);
+    console.error("Store data failed to load", error);
     elements.errorMessage.hidden = false;
     elements.resultsSummary.textContent = "資料載入失敗";
     elements.mapView.hidden = true;
+    return;
   }
+
+  try {
+    initializeMap();
+  } catch (error) {
+    console.error("Map initialization failed", error);
+    state.map = null;
+    state.markerLayer = null;
+    state.mode = "list";
+    elements.errorMessage.querySelector("strong").textContent = "地圖暫時無法顯示";
+    elements.errorMessage.querySelector("span").textContent = "門市列表仍可使用，請稍後再試。";
+    elements.errorMessage.hidden = false;
+  }
+  applyFilters({ fitMap: state.city !== "all" || state.filters.size > 0 });
+  setMode(state.mode);
 }
 
 start();
