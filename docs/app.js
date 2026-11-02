@@ -262,11 +262,20 @@ function initializeMap() {
   });
 
   L.control.zoom({ position: "topright" }).addTo(state.map);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-    subdomains: "abcd",
-    maxZoom: 20,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-  }).addTo(state.map);
+  // OpenFreeMap offers a light basemap without an API key; keep a raster fallback
+  // for browsers that cannot render MapLibre's WebGL vector tiles.
+  const osmAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  if (typeof L.maplibreGL === "function" && window.maplibregl?.supported()) {
+    L.maplibreGL({
+      style: "https://tiles.openfreemap.org/styles/positron",
+      attribution: '&copy; <a href="https://openfreemap.org/">OpenFreeMap</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> ' + osmAttribution
+    }).addTo(state.map);
+  } else {
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: osmAttribution
+    }).addTo(state.map);
+  }
 
   state.markerRenderer = L.canvas({ padding: 0.5 });
   state.markerLayer = typeof L.markerClusterGroup === "function"
