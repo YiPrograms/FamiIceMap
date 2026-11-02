@@ -30,7 +30,7 @@ function initialize({ plugin = true, pluginThrows = false, maplibre = true } = {
     };
   }
 
-  const window = maplibre ? { maplibregl: { Map: function Map() {} } } : {};
+  const window = { L, ...(maplibre ? { maplibregl: { Map: function Map() {} } } : {}) };
   const context = {
     document: { querySelector: () => ({}) },
     window,
