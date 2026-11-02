@@ -50,4 +50,4 @@ test/                         解析與分類測試
 .github/workflows/            定期更新與 Pages 部署
 ```
 
-地圖介面使用 [Leaflet](https://leafletjs.com/)，圖資來自 [OpenStreetMap](https://www.openstreetmap.org/copyright)。本站為非官方整理工具，未使用全家商標圖像。
+地圖介面使用 [Leaflet](https://leafletjs.com/)，底圖由免 API Key 的 [OpenFreeMap](https://openfreemap.org/) Positron 向量圖資提供（透過 MapLibre GL 顯示），不支援 WebGL 的瀏覽器則使用 OpenStreetMap Standard 圖磚。地圖資料來自 [OpenStreetMap](https://www.openstreetmap.org/copyright)，備援圖磚須遵守其 [使用政策](https://operations.osmfoundation.org/policies/tiles/)。本站為非官方整理工具，未使用全家商標圖像。
