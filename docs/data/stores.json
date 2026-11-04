@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-28T18:27:33.011Z",
+    "updatedAt": "2026-11-04T19:59:30.972Z",
     "source": "https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx",
-    "count": 1913,
+    "count": 1912,
     "counts": {
-      "single": 1224,
+      "single": 1223,
       "double": 595,
       "specialShape": 282,
       "unclassified": 94
@@ -3204,7 +3204,7 @@
       "specialShape": false
     },
     {
-      "id": "023080",
+      "id": "026415",
       "serviceId": "11059",
       "name": "全家文祥店",
       "address": "台北市中正區杭州南路一段１４７號",
@@ -3467,7 +3467,7 @@
       "specialShape": false
     },
     {
-      "id": "017203",
+      "id": "026381",
       "serviceId": "57203",
       "name": "全家衡慶店",
       "address": "台北市中正區衡陽路７號１樓部分（如附圖）",
@@ -5734,7 +5734,7 @@
       "specialShape": false
     },
     {
-      "id": "019401",
+      "id": "026423",
       "serviceId": "11992",
       "name": "全家松盛店",
       "address": "台北市信義區松山路１５３號",
@@ -9268,7 +9268,7 @@
       "specialShape": false
     },
     {
-      "id": "016438",
+      "id": "026402",
       "serviceId": "50452",
       "name": "全家五股御雲店",
       "address": "新北市五股區西雲路２號１樓",
@@ -12113,7 +12113,7 @@
       "specialShape": false
     },
     {
-      "id": "024419",
+      "id": "026420",
       "serviceId": "61499",
       "name": "全家淡水滬鑫店",
       "address": "新北市淡水區中正路１３３號",
@@ -12271,7 +12271,7 @@
       "specialShape": false
     },
     {
-      "id": "025876",
+      "id": "026378",
       "serviceId": "56561",
       "name": "全家淡水竹勝店",
       "address": "新北市淡水區民族路５６號１樓",
@@ -13047,7 +13047,7 @@
       "specialShape": true
     },
     {
-      "id": "021181",
+      "id": "026401",
       "serviceId": "50032",
       "name": "全家新店站前店",
       "address": "新北市新店區北宜路一段６號",
@@ -14624,7 +14624,7 @@
       "specialShape": false
     },
     {
-      "id": "022927",
+      "id": "026360",
       "serviceId": "19747",
       "name": "全家樹林學園店",
       "address": "新北市樹林區學成路６０１號１樓",
@@ -16409,27 +16409,6 @@
         "hd",
         "jp",
         "fzo"
-      ],
-      "machine": "single",
-      "specialShape": false
-    },
-    {
-      "id": "016493",
-      "serviceId": "56493",
-      "name": "全家中壢龍樹店",
-      "address": "桃園市中壢區龍東路２０５號１樓、２樓",
-      "city": "桃園市",
-      "postalCode": "320",
-      "phone": "03-4381941",
-      "latitude": 24.929687,
-      "longitude": 121.252346,
-      "services": [
-        "ice",
-        "sweetpotato",
-        "icecream",
-        "rest",
-        "cs",
-        "hd"
       ],
       "machine": "single",
       "specialShape": false
@@ -26423,7 +26402,7 @@
       "specialShape": false
     },
     {
-      "id": "023770",
+      "id": "026404",
       "serviceId": "63770",
       "name": "全家台中寶成店",
       "address": "台中市南屯區文山六街１８９號",
@@ -27089,7 +27068,7 @@
       "specialShape": false
     },
     {
-      "id": "015695",
+      "id": "026200",
       "serviceId": "18717",
       "name": "全家台中福田店",
       "address": "台中市南區福田路１５號１樓",
@@ -32961,7 +32940,7 @@
       "specialShape": false
     },
     {
-      "id": "015798",
+      "id": "026152",
       "serviceId": "17519",
       "name": "全家嘉義台林店",
       "address": "嘉義市東區頂庄里台林街２６０號",
@@ -36072,7 +36051,7 @@
       "specialShape": false
     },
     {
-      "id": "023812",
+      "id": "026393",
       "serviceId": "55882",
       "name": "全家善化興華店",
       "address": "台南市善化區建國路３８號",
@@ -36328,7 +36307,7 @@
       "specialShape": false
     },
     {
-      "id": "024675",
+      "id": "026409",
       "serviceId": "64675",
       "name": "全家新營民權店",
       "address": "台南市新營區民權路２３號１樓及２樓部分範圍",
@@ -38213,7 +38192,7 @@
       "specialShape": false
     },
     {
-      "id": "018702",
+      "id": "026421",
       "serviceId": "58702",
       "name": "全家高雄重和店",
       "address": "高雄市左營區重和路１９１號",
@@ -38605,7 +38584,7 @@
       "specialShape": true
     },
     {
-      "id": "015677",
+      "id": "026376",
       "serviceId": "14325",
       "name": "全家阿蓮忠孝店",
       "address": "高雄市阿蓮區忠孝路２３２號。２３６號１樓",
@@ -42692,7 +42671,7 @@
       "specialShape": false
     },
     {
-      "id": "022218",
+      "id": "026419",
       "serviceId": "16965",
       "name": "全家壯圍美功店",
       "address": "宜蘭縣壯圍鄉美功路一段１６８號",
@@ -43889,7 +43868,7 @@
       "specialShape": false
     },
     {
-      "id": "022986",
+      "id": "026282",
       "serviceId": "55629",
       "name": "全家壽豐東華二店",
       "address": "花蓮縣壽豐鄉大學路二段１號（多容館）",
