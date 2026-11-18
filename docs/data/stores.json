@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "updatedAt": "2026-11-11T19:49:25.836Z",
+    "updatedAt": "2026-11-18T20:50:25.962Z",
     "source": "https://www.family.com.tw/Marketing/storemap/inquiry_iceCream.aspx",
     "count": 1912,
     "counts": {
-      "single": 1223,
-      "double": 595,
+      "single": 1215,
+      "double": 593,
       "specialShape": 282,
-      "unclassified": 94
+      "unclassified": 104
     }
   },
   "stores": [
@@ -1306,7 +1306,6 @@
       "services": [
         "sweetpotato",
         "rest",
-        "twoice",
         "famiice",
         "cs",
         "smart",
@@ -1317,7 +1316,7 @@
         "npork",
         "hd"
       ],
-      "machine": "double",
+      "machine": "unknown",
       "specialShape": true
     },
     {
@@ -1451,7 +1450,7 @@
       "specialShape": false
     },
     {
-      "id": "020150",
+      "id": "026467",
       "serviceId": "10076",
       "name": "全家大安店",
       "address": "台北市大安區大安路一段２０號",
@@ -3828,7 +3827,7 @@
       "specialShape": false
     },
     {
-      "id": "018517",
+      "id": "026469",
       "serviceId": "56456",
       "name": "全家紫新店",
       "address": "台北市內湖區康寧路ㄧ段３７號ㄧ樓",
@@ -9526,7 +9525,7 @@
       "specialShape": false
     },
     {
-      "id": "021179",
+      "id": "026465",
       "serviceId": "10883",
       "name": "全家永和永平店",
       "address": "新北市永和區永平路２３２號",
@@ -12238,13 +12237,12 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "rpotato",
         "cs",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -13047,7 +13045,7 @@
       "specialShape": true
     },
     {
-      "id": "026401",
+      "id": "026433",
       "serviceId": "50032",
       "name": "全家新店站前店",
       "address": "新北市新店區北宜路一段６號",
@@ -13105,14 +13103,13 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rest",
         "cs",
         "eco",
         "hd",
         "jp"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -13541,11 +13538,10 @@
       "longitude": 121.502166,
       "services": [
         "ice",
-        "icecream",
         "rpotato",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -18009,10 +18005,9 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -18453,7 +18448,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "cs",
         "tripk",
@@ -18461,7 +18455,7 @@
         "hd",
         "wei"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -18597,7 +18591,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "toilet",
         "rest",
         "cs",
@@ -18607,7 +18600,7 @@
         "npork",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -27750,12 +27743,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "tea",
         "tripk",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -30294,7 +30286,6 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "tea",
         "tripk",
@@ -30302,7 +30293,7 @@
         "eco",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -31223,10 +31214,11 @@
       "services": [
         "ice",
         "sweetpotato",
+        "icecream",
         "dessert",
         "hd"
       ],
-      "machine": "unknown",
+      "machine": "single",
       "specialShape": false
     },
     {
@@ -32371,7 +32363,7 @@
       "specialShape": false
     },
     {
-      "id": "024269",
+      "id": "026403",
       "serviceId": "64269",
       "name": "全家虎尾萬寶店",
       "address": "雲林縣虎尾鎮廉使里２４鄰虎興南路６０號",
@@ -35401,14 +35393,13 @@
       "longitude": 120.403198,
       "services": [
         "sweetpotato",
-        "twoice",
         "famiice",
         "rpotato",
         "lcoffee",
         "cs",
         "hd"
       ],
-      "machine": "double",
+      "machine": "unknown",
       "specialShape": true
     },
     {
@@ -35970,12 +35961,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "hd",
         "wei"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -36319,12 +36309,11 @@
       "services": [
         "ice",
         "sweetpotato",
-        "icecream",
         "rpotato",
         "tripk",
         "hd"
       ],
-      "machine": "single",
+      "machine": "unknown",
       "specialShape": false
     },
     {
@@ -40116,6 +40105,7 @@
       "services": [
         "ice",
         "sweetpotato",
+        "icecream",
         "rpotato",
         "cs",
         "eco",
@@ -40124,7 +40114,7 @@
         "hd",
         "wei"
       ],
-      "machine": "unknown",
+      "machine": "single",
       "specialShape": false
     },
     {
